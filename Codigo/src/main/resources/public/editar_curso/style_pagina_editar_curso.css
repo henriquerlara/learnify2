@@ -1,0 +1,221 @@
+/* main */
+#banner-curso {
+    width: 95%;
+    height: 200px;
+    margin-left: 2.5%;
+}
+
+#div-banner {
+    padding-top: 40px;
+}
+
+#aulas-do-curso {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 5%;
+    margin-top: 2%;
+    width: 80%;
+    margin-left: 10%;
+
+}
+
+#div-thumbnail {
+
+    margin-top: 5%;
+    position: relative;
+}
+
+#thumbnail {
+    height: 180px;
+    width: 320px;
+}
+
+
+
+#div-thumbnail h6 {
+    text-align: center;
+}
+
+.icones{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+
+.imagem-texto {
+    max-width: min-content;
+}
+
+.lixeira {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 3%;
+    margin-top: 5%;
+    cursor: pointer;
+}
+
+.lapis {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 10%;
+    margin-top: 5%;
+    cursor: pointer;
+}
+
+#campos-edicao {
+    margin-top: 4%;
+    width: 90%;
+    margin-left: 5%;
+    display: none;
+}
+
+.campo {
+    margin-top: 0.5%;
+}
+
+#div-botao-finalizar-edicao {
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+}
+
+#exibir-campos {
+    width: fit-content;
+    white-space: pre-line;
+    background-color: rgb(219, 133, 5);
+}
+
+#ocultar-campos {
+    width: fit-content;
+    white-space: pre-line;
+    background-color: rgb(219, 133, 5);
+    display: none;
+}
+
+#div-botao-campo {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+#botoes-curso {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.edit {
+    margin-right: 5%;
+
+
+}
+
+#div-botoes-edicao {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+    width: 80%;
+    margin-left: 10%;
+
+}
+
+.button-68 {
+    appearance: none;
+    backface-visibility: hidden;
+    background-color: #009f32;
+    border-radius: 8px;
+    border-style: none;
+    box-shadow: rgba(39, 174, 96, .15) 0 4px 9px;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Inter, -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: normal;
+    line-height: 1.5;
+    outline: none;
+    overflow: hidden;
+    padding: 13px 20px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transform: translate3d(0, 0, 0);
+    transition: all .3s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: top;
+    white-space: nowrap;
+}
+
+.button-68:hover {
+    background-color: #1e8449;
+    opacity: 1;
+    transform: translateY(0);
+    transition-duration: .35s;
+}
+
+.button-68:active {
+    transform: translateY(2px);
+    transition-duration: .35s;
+}
+
+.button-68:hover {
+    box-shadow: rgba(39, 174, 96, .2) 0 6px 12px;
+}
+
+
+
+.button-red {
+    appearance: none;
+    backface-visibility: hidden;
+    background-color: red;
+    border-radius: 8px;
+    border-style: none;
+    box-shadow: rgba(39, 174, 96, .15) 0 4px 9px;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Inter, -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: normal;
+    line-height: 1.5;
+    outline: none;
+    overflow: hidden;
+    padding: 13px 20px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transform: translate3d(0, 0, 0);
+    transition: all .3s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: top;
+    white-space: nowrap;
+}
+
+.button-red:hover {
+    background-color: rgb(141, 1, 1);
+    opacity: 1;
+    transform: translateY(0);
+    transition-duration: .35s;
+}
+
+.button-red:active {
+    transform: translateY(2px);
+    transition-duration: .35s;
+}
+
+.button-red:hover {
+    box-shadow: rgba(39, 174, 96, .2) 0 6px 12px;
+}
+
+/* fim main */

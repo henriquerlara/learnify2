@@ -1,0 +1,28 @@
+cff-version: 1.0.1
+message: Please cite this software using these metadata.
+title: Learnify
+authors:
+  - family-names: Menezes
+    given-names: Paulo Henrique
+  - family-names: Lascasas
+    given-names: Tiago
+  - family-names: Perreira Rangel
+    given-names: Lucas
+  - family-names: Resende Lara
+    given-names: Henrique
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Oliveira Campanema
+    given-names: Daniel
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Vieira Carneiro
+    given-names: Rommel
+keywords:
+  - Cursos
+  - Video Aula
+  - Recomendação
+repository-code: https://github.com/ICEI-PUC-Minas-CC-TI/plmg-cc-2023-2-ti2-g39-learnify
+license: CC-BY-4.0
+version: 1.0.0
+date-released: 2023-12-12

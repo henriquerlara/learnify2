@@ -1,0 +1,163 @@
+@media screen and (min-width: 1900px) {
+    #thumbnail {
+        height: 180px;
+        width: 320px;
+    }
+    .lapis {
+        margin-right: 12%;
+    }
+}
+@media screen and (min-width:1670px) and (max-width:1899px) {
+    #thumbnail {
+        height: 230px;
+        width: 400px;
+    }
+}
+@media screen and (min-width:1460px) and (max-width:1669px) {
+    #thumbnail {
+        height: 220px;
+        width: 350px;
+    }
+}
+@media screen and (min-width:1250px) and (max-width:1459px) {
+    #thumbnail {
+        height: 180px;
+        width: 300px;
+    }
+    .lapis{
+        margin-right: 12%;
+    }
+}
+@media screen and (min-width:1055px) and (max-width:1249px) {
+    #thumbnail {
+        height: 230px;
+        width: 400px;
+    }
+}
+@media screen and (min-width:925px) and (max-width:1054px) {
+    #thumbnail {
+        height: 200px;
+        width: 350px;
+    }
+}
+@media screen and (min-width:790px) and (max-width:924px) {
+    #thumbnail {
+        height: 180px;
+        width: 300px;
+    }
+    .lapis {
+        margin-right: 12%;
+    }
+}
+@media screen and (min-width:635px) and (max-width:789px) {
+    #thumbnail {
+        height: 150px;
+        width: 240px;
+    }
+    .lapis {
+        margin-right: 13%;
+        margin-top: 7%;
+    }
+    .lixeira{
+        margin-top:7%;
+    }
+}
+
+@media screen and (min-width:460px) and (max-width:634px) {
+    #thumbnail {
+        height: 220px;
+        width: 400px;
+    }
+
+    #aulas-do-curso {
+        justify-content: center;
+    }
+
+    #div-thumbnail {
+        margin-top: 10%;
+    }
+}
+
+
+@media screen and (max-width:459px) {
+    .lapis {
+        margin-right: 12%;
+        margin-top: 7%;
+    }
+    .lixeira{
+        margin-top:7%;
+    }
+}
+
+@media screen and (min-width:360px) and (max-width:459px) {
+    #thumbnail {
+        height: 180px;
+        width: 300px;
+    }
+
+    #aulas-do-curso {
+        justify-content: center;
+    }
+    #div-thumbnail {
+        margin-top: 10%;
+    }
+}
+
+@media screen and (max-width:359px) {
+    #thumbnail {
+        height: 180px;
+        width: 240px;
+    }
+
+    #aulas-do-curso {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 385px) {
+    .botoes-edicao {
+        width: 45%;
+        font-size: 85%;
+    }
+    
+    .barra-home {
+        grid-column: 3;
+        grid-row: 1;
+        margin-top: 30px;
+        display: flex;
+        margin-right: 10%;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    #exibir-campos {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .campo {
+        margin-top: 1.5%;
+    }
+    
+    #div-botao-finalizar-edicao {
+        display: flex;
+        justify-content: center;
+        margin-top: 2%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .campo {
+        margin-top: 2.5%;
+    }
+    
+    #div-botao-finalizar-edicao {
+        display: flex;
+        justify-content: center;
+        margin-top: 4%;
+    }
+}
+
+
+

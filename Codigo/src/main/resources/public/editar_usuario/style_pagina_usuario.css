@@ -1,0 +1,81 @@
+/**/
+
+main {
+  padding-top: 30px;
+  padding-bottom: 30px !important;
+}
+.user-container {
+  display: flex;
+  justify-content: space-between;
+  /* Coloca os elementos no início e no final do contêiner */
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+#user-form {
+  flex: 2;
+  /* Ocupa o máximo de espaço possível */
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.removerButton {
+  flex: 1;
+  /* Ocupa o máximo de espaço possível */
+  margin-left: 20px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 440px;
+}
+
+label {
+  display: block;
+  margin-bottom: 6px;
+  margin-top: 10px;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+  cursor: not-allowed;
+  /* Adicionado para manter o cursor inalterado */
+  color: #555;
+  /* Adicionado para manter a cor do texto padrão */
+}
+
+#change-password {
+  display: none;
+}
+
+main button {
+  background-color: #009f32;
+  /* Cor de fundo */
+  color: #fff;
+  /* Cor do texto */
+  padding: 10px 20px;
+  /* Espaçamento interno */
+  font-size: 16px;
+  /* Tamanho da fonte */
+  border: none;
+  /* Sem borda */
+  border-radius: 5px;
+  /* Borda arredondada */
+  cursor: pointer;
+  /* Cursor ao passar por cima */
+  margin-top: 10px;
+  /* Espaçamento superior entre os botões */
+}
+
+/* Estilo para os botões quando hover (passar o mouse por cima) */
+main button:hover {
+  background-color: #00611f;
+  /* Alterar a cor de fundo no hover */
+}

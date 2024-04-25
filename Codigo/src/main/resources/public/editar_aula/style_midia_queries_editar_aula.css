@@ -1,0 +1,38 @@
+@media screen and (min-width:501px) and (max-width:1500px) {
+    .inserir-aula {
+        flex: 1 1 100%;
+        max-width: 40%;
+    }
+}
+
+@media screen and (max-width:1500px) {
+    .arrow-button {
+        left: 20%;
+        margin-top: 50px;
+    }
+}
+
+@media screen and (min-width:501px) and (max-width:870px) {
+    .arrow-button {
+        left: 13%;
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .arrow-button {
+        left: 3%;
+        margin-top: 5px;
+    }
+
+    .inserir-aula {
+        flex: 1 100%;
+        max-width: 70%;
+    }
+
+    #finalizar-curso {
+        font-size: 13px;
+        width: 120px;
+    }
+}
+

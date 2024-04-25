@@ -1,0 +1,66 @@
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+    .curso img {
+        height: 400px;
+      }
+}
+
+@media screen and (min-width: 1001px) and (max-width: 1200px) {
+    .curso img {
+        height: 330px;
+      }
+}
+
+@media screen and (max-width: 1000px) {
+    .curso img {
+        height: 300px;
+    }
+
+    .div-container {
+        width: 90%;
+        margin-left: 5%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .curso img {
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .curso {
+        flex: 1 1 100%;
+    }
+
+    .curso img {
+        height: 400px;
+    }
+
+    .div-container {
+        width: 80%;
+        margin-left: 10%;
+    }
+}
+
+@media screen and (max-width: 675px) {
+    .curso img {
+        height: 350px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .curso img {
+        height: 280px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .curso img {
+        height: 250px;
+    }
+
+    .div-container {
+        width: 90%;
+        margin-left: 5%;
+    }
+}

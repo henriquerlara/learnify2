@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .body {}
+  
+  header {
+    background-color: black;
+    color: white;
+  }
+  
+  main {
+    background-color: lightgray;
+    padding-bottom: 100px;
+  }
+  
+  footer {
+    background-color: black;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  html {
+    background-color: black;
+  }
+  
+  
+  
+  
+  
+  
+  
+  /* classes */
+  
+  /* cabecalho */
+  #cabecalho {
+    display: grid;
+    grid-template-columns: (1fr, 2fr, 2fr);
+    min-height: 120px;
+  }
+  
+  .barra-home {
+    grid-column: 3;
+    grid-row: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 30%;
+    min-height: 120px;
+  }
+  
+  .menu {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0px;
+  }
+  
+  .menu li {
+    list-style: none;
+    margin-left: 30px;
+    font-size: 18px;
+  }
+  
+  .logo {
+    width: 100px;
+    height: 70px;
+  }
+  
+  .div-logo {
+    display: flex;
+    align-items: center;
+    grid-row: 1/3;
+    grid-column: 1;
+    margin-left: 50%;
+  }
+  
+  #logoutButton {
+    background-color: #009f32;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 20px;
+    vertical-align: middle;
+    border: none;
+    display: flex;
+    font-weight: 600;
+    font-size: 20px;
+    gap: 0.5rem;
+    align-items: center;
+  }
+  
+  #editButton {
+    background-color: #009f32;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 20px;
+    vertical-align: middle;
+    border: none;
+    display: flex;
+    font-weight: 600;
+    font-size: 20px;
+    gap: 0.5rem;
+    align-items: center;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  #accountLink {
+    color: #009f32;
+    margin-top: 400%;
+    font-size: 20px;
+    text-decoration: none;
+    margin-right: 10px;
+    vertical-align: middle;
+    padding-top: 10px;
+    margin-bottom: 0px
+  }
+  
+  #menuToggle {
+    display: none;
+  }
+  
+  .menu-icon {
+    display: none;
+  }
+  
+  /* fim cabecalho */
+  
+  
+  
+  /* footer */
+  .redes-sociais-rodape {
+    grid-column: 1;
+    margin-left: 45%;
+  }
+  
+  .itens-rodape {
+    margin-top: 5%;
+    width: fit-content;
+    font-size: 14px;
+  }
+  
+  .links-rodape {
+    grid-column: 2;
+    margin-left: 5%;
+  }
+  
+  .copyright-rodape {
+    grid-column: 1/3;
+    width: fit-content;
+    margin-left: 45%;
+    font-size: 10px;
+    margin-top: 5%;
+  }
+  
+  .fa-brands {
+    margin-left: 5%;
+    margin-top: 20%;
+  }
+  
+  .conteudo-itens-rodape {
+    margin-top: 4%;
+  }
+  
+  .texto-itens-rodape {
+    text-decoration: none;
+    color: white;
+    display: flex;
+  }
+  
+  .ancoras {
+    text-decoration: none;
+    color: white;
+  
+  }
+  
+  .links-politicas a {
+    margin-left: 10%;
+  }
+  
+  .links-politicas a :first-child {
+    width: max-content;
+  }
+  
+  .links-politicas {
+    display: flex;
+    margin-top: 5%;
+  }
+  
+  .titulo-links {
+    text-align: center;
+    width: 300px;
+  
+  }
+  
+  /* fim footer */

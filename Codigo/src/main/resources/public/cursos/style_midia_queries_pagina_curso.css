@@ -1,0 +1,88 @@
+@media screen and (min-width: 1900px) {
+    #thumbnail {
+        height: 180px;
+        width: 320px;
+    }
+}
+@media screen and (min-width:1670px) and (max-width:1899px) {
+    #thumbnail {
+        height: 230px;
+        width: 400px;
+    }
+}
+@media screen and (min-width:1460px) and (max-width:1669px) {
+    #thumbnail {
+        height: 220px;
+        width: 350px;
+    }
+}
+@media screen and (min-width:1250px) and (max-width:1459px) {
+    #thumbnail {
+        height: 180px;
+        width: 300px;
+    }
+}
+@media screen and (min-width:1055px) and (max-width:1249px) {
+    #thumbnail {
+        height: 230px;
+        width: 400px;
+    }
+}
+@media screen and (min-width:925px) and (max-width:1054px) {
+    #thumbnail {
+        height: 200px;
+        width: 350px;
+    }
+}
+@media screen and (min-width:790px) and (max-width:924px) {
+    #thumbnail {
+        height: 180px;
+        width: 300px;
+    }
+}
+@media screen and (min-width:635px) and (max-width:789px) {
+    #thumbnail {
+        height: 150px;
+        width: 240px;
+    }
+}
+
+@media screen and (min-width:460px) and (max-width:634px) {
+    #thumbnail {
+        height: 220px;
+        width: 400px;
+    }
+
+    #aulas-do-curso {
+        justify-content: center;
+    }
+
+    #div-thumbnail {
+        margin-top: 10%;
+    }
+}
+
+@media screen and (min-width:360px) and (max-width:459px) {
+    #thumbnail {
+        height: 180px;
+        width: 300px;
+    }
+
+    #aulas-do-curso {
+        justify-content: center;
+    }
+    #div-thumbnail {
+        margin-top: 10%;
+    }
+}
+
+@media screen and (max-width:359px) {
+    #thumbnail {
+        height: 180px;
+        width: 240px;
+    }
+
+    #aulas-do-curso {
+        justify-content: center;
+    }
+}

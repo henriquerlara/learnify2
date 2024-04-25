@@ -1,0 +1,33 @@
+@media screen and (max-width:770px) {
+    .user-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #user-form{
+        max-width:80%;
+        margin-bottom:20px;
+    }
+
+    .removerButton{
+        flex: none;
+        max-width: 80%;
+        margin-left:0;
+        margin-bottom:0;
+    }
+
+}
+
+@media screen and (max-width:565px) {
+
+    #user-form{
+        max-width:95%;
+    }
+
+    .removerButton{
+        max-width: 95%;
+    }
+
+}

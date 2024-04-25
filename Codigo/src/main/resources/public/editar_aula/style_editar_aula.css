@@ -1,0 +1,105 @@
+#div-inserir-img-link {
+    padding-top: 2%;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3%;
+    align-items: stretch;
+}
+
+.inserir-aula {
+    flex: 1 1 25%;
+    max-width: 25%;
+    padding-top: 2%;
+}
+
+.div-inserir-img {}
+
+.div-inserir-link {}
+
+.input-link {}
+
+#div-inserir-img-link h3 {
+    text-align: center;
+}
+
+#div-botao-finalizar {
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+#finalizar-curso {
+    width: 150px;
+    white-space: nowrap;
+}
+
+
+
+#div-tutorial {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.7);
+    overflow: hidden;
+    z-index: 99;
+    display: none;
+    width: 100%;
+    height: 0;
+}
+
+#close-tutorial {
+    z-index: 999;
+    position: absolute;
+    top: 10%;
+    left: 67.5%;
+    cursor: pointer;
+}
+
+#imagem-tutorial {
+    max-width: 40%;
+    position: absolute;
+    top: 7%;
+    left: 30%;
+}
+
+
+
+
+
+
+
+.arrow-button {
+    display: inline-block;
+    font-size: 40px;
+    color: black;
+    transition: transform 0.3s;
+    position: absolute;
+    margin-top: 70px;
+    left: 28%;
+}
+
+.arrow-button:hover {
+    transform: scale(1.2);
+}
+
+.arrow-button i {
+    animation: none;
+}
+
+.arrow-button:hover i {
+    animation: arrow-animation 1s infinite;
+}
+
+@keyframes arrow-animation {
+    0% {
+        transform: translateX(0);
+    }
+
+    50% {
+        transform: translateX(-10px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}

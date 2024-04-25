@@ -1,0 +1,112 @@
+/* main */
+#banner-curso {
+    width: 95%;
+    height: 200px;
+    margin-left: 2.5%;
+}
+
+#div-banner {
+    padding-top: 40px;
+}
+
+#aulas-do-curso {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 5%;
+    margin-top: 2%;
+    width: 80%;
+    margin-left: 10%;
+
+}
+
+#div-thumbnail {
+
+    margin-top: 5%;
+    position: relative;
+}
+
+#thumbnail {
+    height: 180px;
+    width: 320px;
+}
+
+.ancora-aulas {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#div-thumbnail h6 {
+    text-align: center;
+}
+
+.imagem-texto {
+    max-width: min-content;
+}
+
+
+
+
+#botoes-curso {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.edit {
+    margin-right: 5%;
+
+
+}
+
+.button-68 {
+    appearance: none;
+    backface-visibility: hidden;
+    background-color: #009f32;
+    border-radius: 8px;
+    border-style: none;
+    box-shadow: rgba(39, 174, 96, .15) 0 4px 9px;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Inter, -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: normal;
+    line-height: 1.5;
+    outline: none;
+    overflow: hidden;
+    padding: 13px 20px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transform: translate3d(0, 0, 0);
+    transition: all .3s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: top;
+    white-space: nowrap;
+}
+
+.button-68:hover {
+    background-color: #1e8449;
+    opacity: 1;
+    transform: translateY(0);
+    transition-duration: .35s;
+}
+
+.button-68:active {
+    transform: translateY(2px);
+    transition-duration: .35s;
+}
+
+.button-68:hover {
+    box-shadow: rgba(39, 174, 96, .2) 0 6px 12px;
+}
+
+/* fim main */

@@ -1,0 +1,165 @@
+@media screen and (min-width:240px) and (max-width:1000px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    
+    
+    
+    /* classes */
+    
+    /* cabecalho */
+    .barra-home {
+        margin-right: 10%;
+    }
+    
+    .div-logo {
+        margin-left: 20%;
+    }
+    /* fim cabecalho */
+    
+    
+    
+    /* footer */
+    .itens-rodape {
+        margin-left: 15%;
+    }
+
+    .copyright-rodape {
+        margin-left: 35%;
+    }
+    
+    .conteudo-itens-rodape {
+        width: fit-content;
+    }
+    
+    .links-politicas {
+        display: block;
+        margin-top: 20%;
+        width: fit-content;
+        margin-left: 35%;
+    }
+
+    .links-politicas a {
+        margin-left: 0;
+    }
+
+    .titulo-links {
+        width: fit-content;
+    }
+    /* fim footer */
+
+}
+
+@media screen and (max-width:1700px){
+    .barra-home {
+        margin-right: 20%;
+    }
+    
+    .div-logo {
+        margin-left: 40%;
+    }
+}
+
+@media screen and (max-width:1300px){
+    .barra-home {
+        margin-right: 10%;
+    }
+
+}
+
+@media screen and (max-width: 770px) {
+    .barra-home {
+        margin-right: 40%;
+    }
+
+    .div-logo {
+        margin-left: 30%;
+    }
+
+    .menu {
+        display: flex;
+        position: fixed;
+        flex-wrap: wrap;
+        align-content: center;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 0;
+        background: rgba(0, 0, 0, 0.7);
+        overflow: hidden;
+        z-index: 1;
+    
+        -webkit-transition: height 0.3s; 
+        -moz-transition: height 0.3s; /* variações para todos os navegaores */
+        -o-transition: height 0.3s;
+        transition: height 0.3s; /*animação realizada ao se clicar no menu 3 */
+    }
+    #logoutLi {
+        display: flex;
+        justify-content: center;
+    }
+
+    #editLi {
+        display: flex;
+        justify-content: center;
+    }
+
+    #accountLink {
+        color: #fff;
+        background-color: #009f32;
+        font-weight: 600;
+        margin-right: 0px;
+        padding: 13px;
+    }
+
+    .fa-hammer {
+        color: #fff;
+    }
+    
+    .menu li {
+        width: 100%;
+        margin-left: 0px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    
+    .menu-icon {
+        display: block;
+        color: white;
+        width: 50px;
+        z-index: 999;
+    }
+    
+    .menu-icon i {
+        font-size: 45px;
+    }
+    
+    #menuToggle:checked ~ label i:nth-child(2) {
+        display: block;
+        position: fixed;
+    }
+    #menuToggle:checked ~ label i:first-child {
+        display: none;
+    }
+    #menuToggle:not(checked) ~ label i:first-child {
+        display: block;
+    }
+    #menuToggle:not(checked) ~ label i:nth-child(2) {
+        display: none;
+    }
+    #menuToggle:checked ~ ul{
+        height: 100%;
+    }
+    
+}
+
+@media screen and (max-width: 550px) {
+    .barra-home {
+        margin-right: 15%;
+    }
+
+    .div-logo {
+        margin-left: 10%;
+    }
+}
