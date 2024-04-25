@@ -23,7 +23,7 @@ public class Aplicacao {
 	public static void main(String[] args) {
     	VelocityTemplateEngine engine = new VelocityTemplateEngine();
         staticFiles.location("/public");
-        port(6788);
+        port(6789);
         
         before((request, response) -> {
             Session session = request.session();
