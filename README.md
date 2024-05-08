@@ -4,7 +4,7 @@
 
 ## Alunos integrantes da equipe
 
-* [Tiago Lascasa Antunes]
+* [Tiago Lascasas Antunes]
 * [Henrique Resende Lara]
 * [Paulo Henrique Marques de Menezes]
 * [Lucas Pereira Rangel de Carvalho]
